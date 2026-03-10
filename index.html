@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Archive // INDEX</title>
+    <title>~ The Neon Basement // Personal Archive ~</title>
     <style>
-        /* Private Terminal 90s Aesthetic */
+        /* Private Creative Terminal Aesthetic */
         body {
             background-color: #000000;
             background-image: url('https://cyber.dabamos.de/88x31/stars.gif');
-            color: #C0C0C0; /* Light grey text for readability */
+            color: #C0C0C0; 
             font-family: "Courier New", Courier, monospace;
             margin: 0;
             padding: 20px;
         }
 
-        /* The Main Vault Table */
+        /* Main Container */
         table {
             border-collapse: separate;
             border-spacing: 0;
-            background-color: #000000;
-            border: 4px ridge #808080; /* Grey ridge border */
+            background-color: #050505;
+            border: 4px ridge #800080; /* Purple ridge to feel more artistic */
             width: 900px;
             margin: 0 auto;
         }
@@ -31,25 +31,25 @@
             vertical-align: top;
         }
 
-        /* The Index Sidebar */
+        /* Navigation Sidebar */
         .sidebar {
             width: 25%;
             background-color: #080808;
-            border-right: 4px double #444;
+            border-right: 4px double #800080;
         }
 
         .sidebar h3 {
             color: #FFFFFF;
-            background-color: #333;
+            background-color: #4B0082; /* Indigo */
             padding: 5px;
             margin-top: 0;
             font-size: 14px;
             text-align: center;
-            border: 1px solid #777;
+            border: 1px solid #9932CC;
         }
 
         .sidebar a {
-            color: #00FFFF; /* Cyan links */
+            color: #00FFFF; /* Cyan */
             text-decoration: none;
             display: block;
             margin-bottom: 10px;
@@ -58,11 +58,11 @@
 
         .sidebar a:hover {
             color: #FFFFFF;
-            background-color: #000080;
+            background-color: #800080;
             text-decoration: none;
         }
 
-        /* Main Data Area */
+        /* Main Content Area */
         .content {
             width: 75%;
             background-color: #000000;
@@ -70,55 +70,78 @@
 
         h1, h2, h3 {
             font-family: "Times New Roman", Times, serif;
-            color: #FFCC00; /* Amber headers */
+            color: #FF00FF; /* Magenta headers for the art vibe */
             border-bottom: 1px solid #333;
             padding-bottom: 5px;
         }
 
-        h1 { text-align: center; border-bottom: 2px dashed #FFCC00; }
+        h1 { 
+            text-align: center; 
+            border-bottom: 2px dashed #FF00FF; 
+            color: #00FFFF;
+        }
 
-        /* The Weblog (Blog) Styles */
-        .weblog-entry {
+        /* ASCII Art */
+        .ascii-art {
+            color: #00FF00;
+            font-size: 10px;
+            text-align: center;
+            white-space: pre;
+            margin-bottom: 20px;
+        }
+
+        /* The Journal (Blog) */
+        .journal-entry {
             background-color: #0a0a0a;
-            border: 1px dotted #555;
+            border: 1px dotted #00FFFF;
             padding: 15px;
             margin-bottom: 20px;
         }
-        .weblog-date {
-            color: #00FF00; /* Hacker green dates */
+        .journal-date {
+            color: #FFCC00; 
             font-weight: bold;
             font-size: 16px;
             border-bottom: 1px solid #222;
             margin-bottom: 10px;
             padding-bottom: 5px;
         }
-        .weblog-tags {
+        .journal-tags {
             font-size: 12px;
             color: #888;
             margin-top: 10px;
         }
 
-        /* Image Vault (Photo tables) */
-        .vault-table {
+        /* Audio Player / Tracker */
+        .audio-tracker {
+            background-color: #000080;
+            border: 3px inset #C0C0C0;
+            padding: 15px;
+            font-family: "Courier New", monospace;
+            color: #FFF;
+        }
+        .audio-tracker a { color: #FFFF00; text-decoration: none; }
+        .audio-tracker a:hover { text-decoration: underline; }
+
+        /* Photo Gallery */
+        .gallery-table {
             width: 100%;
             border: 1px solid #444;
             background-color: #050505;
         }
-        .vault-table td {
+        .gallery-table td {
             border: 1px solid #222;
             text-align: center;
             font-size: 12px;
             padding: 10px;
             color: #999;
         }
-        .vault-table img {
+        .gallery-table img {
             border: 2px solid #555;
             margin-bottom: 5px;
         }
 
         /* Utilities */
-        .system-msg { color: #FF0000; font-weight: bold; text-align: center; border: 1px solid #FF0000; padding: 5px; margin-bottom: 20px; }
-        .retro-line { width: 100%; height: 2px; background-color: #555; margin: 30px 0; }
+        .retro-line { width: 100%; height: 1px; border-bottom: 1px dashed #555; margin: 30px 0; }
         p { line-height: 1.4; }
     </style>
 </head>
@@ -127,122 +150,128 @@
 <table>
     <tr>
         <td colspan="2" style="text-align: center; background-color: #111;">
-            <h1>:: PERSONAL ARCHIVE & WEBLOG ::</h1>
-            <div class="system-msg">
-                SYS_STATUS: ONLINE // ACCESS: PRIVATE DIRECTORY
+            <div class="ascii-art">
+  ___  ____  _____   __  __  _  _  ____  ____  ___ 
+ / __)(  __)(  _  ) (  )(  )( \( )(  _ \(  __)/ __)
+( (__  ) _)  )(_)(   )(__)(  )  (  )(_) )) _) \__ \
+ \___)(____)(_____) (______)(_)\_)(____/(____)(___/
+            </div>
+            <h1>:: THE NEON BASEMENT ::</h1>
+            <div style="color: #FF00FF; font-size: 12px; letter-spacing: 2px;">
+                > PERSONAL JOURNAL // AUDIO LAB // VISUAL ARCHIVE <
             </div>
         </td>
     </tr>
     <tr>
         <td class="sidebar">
-            <h3>[ ROOT DIRECTORY ]</h3>
-            <a href="#weblog">📁 /weblog_journal/</a>
-            <a href="#web">📁 /web_database_mgmt/</a>
-            <a href="#print">📁 /print_publishing/</a>
-            <a href="#photo">📁 /digital_imaging/</a>
-            <a href="#music">📁 /audio_midi_vault/</a>
+            <h3>[ CREATIVE HUB ]</h3>
+            <a href="#journal">📁 /digital_journal/</a>
+            <a href="#music">📁 /audio_lab/</a>
+            <a href="#photo">📁 /visual_arts/</a>
             
             <br><br>
-            <h3>[ SYSTEM LOGS ]</h3>
-            <span style="color: #00FF00; font-size: 12px;">
-                > Last Login: 03/10/26<br>
-                > User: SYSADMIN<br>
-                > DB Status: SYNCED
+            <h3>[ THE REAL WORLD ]</h3>
+            <a href="#work">📁 /the_day_job/</a>
+            
+            <br><br>
+            <h3>[ STATUS ]</h3>
+            <span style="color: #00FFFF; font-size: 12px;">
+                > Mood: Caffeinated<br>
+                > Listening to: Aphex Twin<br>
+                > Projects: Rendering...
             </span>
             <br><br>
             <div style="text-align:center;">
-                <img src="https://cyber.dabamos.de/88x31/notepad.gif" alt="Notepad" border="0"><br><br>
-                <img src="https://cyber.dabamos.de/88x31/linux.gif" alt="Linux" border="0">
+                <img src="https://cyber.dabamos.de/88x31/winamp.gif" alt="Winamp" border="0"><br><br>
+                <img src="https://cyber.dabamos.de/88x31/mozi.gif" alt="Mozilla" border="0">
             </div>
         </td>
 
         <td class="content">
             
-            <h2 id="weblog">:: WEBLOG / DEVELOPMENT JOURNAL ::</h2>
-            <p><i>Log of daily tasks, system updates, and personal thoughts.</i></p>
+            <h2 id="journal">:: DIGITAL JOURNAL ::</h2>
+            <p><i>Thoughts, updates, and creative brain dumps.</i></p>
 
-            <div class="weblog-entry">
-                <div class="weblog-date">LOG ENTRY: 03/10/2026 @ 14:00</div>
-                <p>Just wrapped up the final edits on the 2025 Summer Learning Catalog. The PDF came out to 3.5MB, which isn't too bad. I also ran a cleanup script on the Skyward parent directory to prep for the summer registration influx. Need to remember to update the CSS on the main D181 portal before Friday.</p>
-                <div class="weblog-tags">Tags: #d181 #publishing #sysadmin #catalogs</div>
+            <div class="journal-entry">
+                <div class="journal-date">LOG: 03/10/2026 @ 14:00</div>
+                <p>Started organizing the winter photography sets. The contrast of the snow against the brick at Madison School came out surprisingly moody. I've uploaded the raw edits to the visual archive below. Also spent the morning messing around with a new synth patch on my MIDI controller. Hoping to have a new track finished by the weekend.</p>
+                <div class="journal-tags">Tags: #photography #winter #synths #wip</div>
             </div>
 
-            <div class="weblog-entry">
-                <div class="weblog-date">LOG ENTRY: 02/24/2026 @ 09:30</div>
-                <p>Winter photography sorting. Finally backed up the shots I took of the elementary schools and the middle school. The snow looked great against the brick at Madison. Adding these to the digital vault below. Also spent the weekend messing around with some new MIDI basslines. Might upload an MP3 export soon.</p>
-                <div class="weblog-tags">Tags: #photography #music #archiving</div>
+            <div class="journal-entry">
+                <div class="journal-date">LOG: 02/24/2026 @ 01:15</div>
+                <p>Late night coding session. Finally got this archive looking exactly how I want it. There is something incredibly comforting about pure HTML and inline CSS. No frameworks, no bloated JavaScript, just a pure, static canvas. Reminds me of the early days of the web.</p>
+                <div class="journal-tags">Tags: #webdesign #nostalgia #html</div>
             </div>
 
             <div class="retro-line"></div>
 
-            <h2 id="web">:: WEB & DATABASE ARCHIVE ::</h2>
-            <p>Record of digital infrastructure management and CMS frameworks.</p>
-            <ul>
-                <li><b style="color:#00FFFF;">Project: D181.org Mainframe</b> - Front-end webmastering, layout architecture, and content management.</li>
-                <li><b style="color:#00FFFF;">Database: Skyward Family Access</b> - Data integrity, parent directory syncs, and system maintenance.</li>
-                <li><a href="website.pdf" style="color:#C0C0C0; text-decoration:underline;">[Download: website.pdf - Layout Proofs]</a></li>
-            </ul>
-
-            <div class="retro-line"></div>
-
-            <h2 id="print">:: PRINT PUBLISHING REPOSITORY ::</h2>
-            <p>Archive of district catalogs, pamphlets, and informational packets.</p>
-            <ul>
-                <li><a href="2025 Summer Learning Catalog-03182025V3.pdf" style="color:#00FF00;">2025 Summer Learning Catalog (Version 3)</a></li>
-                <li><a href="2024 Summer Learning Catalog-03112024.pdf" style="color:#00FF00;">2024 Summer Learning Catalog</a></li>
-                <li>Registration Flyers & Marketing Materials</li>
-            </ul>
-
-            <div class="retro-line"></div>
-
-            <h2 id="photo">:: DIGITAL IMAGING VAULT ::</h2>
-            <p>Archived winter school photography. Raw files stored locally.</p>
+            <h2 id="music">:: AUDIO LAB ::</h2>
+            <p>Recent experiments, MIDI sequences, and exported tracks.</p>
             
-            <table class="vault-table">
+            <div class="audio-tracker">
+                <div style="background-color:#000; padding: 5px; margin-bottom: 10px; color:#00FF00;">
+                    [WINAMP_EMULATOR_v2.91] -- PLAYING: track_04_bounce.mp3
+                </div>
+                <b>[ LOCAL DIRECTORY: /music/exports/ ]</b><br><br>
+                [ <a href="#">PLAY</a> ] 01. midnight_sequence.mid (14kb)<br>
+                [ <a href="#">PLAY</a> ] 02. winter_ambient_mix.wav (45mb)<br>
+                [ <a href="#">PLAY</a> ] 03. drum_machine_test.mp3 (3.2mb)<br>
+                [ <a href="#">PLAY</a> ] 04. track_04_bounce.mp3 (4.1mb) <b>*NEW*</b>
+            </div>
+
+            <div class="retro-line"></div>
+
+            <h2 id="photo">:: VISUAL ARTS // PHOTOGRAPHY ::</h2>
+            <p>Selected works and environmental studies. Currently focusing on winter architecture.</p>
+            
+            <table class="gallery-table">
                 <tr>
                     <td>
                         <img src="hms-winter-1.jpg" width="180" height="135" alt="HMS"><br>
-                        FILE: hms-winter-1.jpg
+                        Hinsdale Middle School<br><i>Winter Study 01</i>
                     </td>
                     <td>
                         <img src="madison-winter-1.jpg" width="180" height="135" alt="Madison"><br>
-                        FILE: madison-winter-1.jpg
+                        Madison School<br><i>Winter Study 02</i>
                     </td>
                     <td>
                         <img src="Madison1.jpg" width="180" height="135" alt="Madison Alt"><br>
-                        FILE: Madison1.jpg
+                        Madison School<br><i>Alternate Angle</i>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <img src="monroe-winter1.jpg" width="180" height="135" alt="Monroe"><br>
-                        FILE: monroe-winter1.jpg
+                        Monroe School<br><i>Winter Study 03</i>
                     </td>
                     <td>
                         <img src="prospect-winter-1.jpg" width="180" height="135" alt="Prospect"><br>
-                        FILE: prospect-winter-1.jpg
+                        Prospect School<br><i>Winter Study 04</i>
                     </td>
                     <td>
                         <img src="5.png" width="180" height="135" alt="Misc Graphic"><br>
-                        FILE: 5.png (Misc Graphic)
+                        Digital Asset<br><i>Abstract Graphic</i>
                     </td>
                 </tr>
             </table>
 
             <div class="retro-line"></div>
 
-            <h2 id="music">:: AUDIO / MIDI VAULT ::</h2>
-            <p>Repository for personal musical compositions and audio experiments.</p>
+            <h2 id="work">:: THE DAY JOB ::</h2>
+            <p>A designated drop-zone for my professional output. Database management, web design, and print publishing for District 181.</p>
             
-            <div style="background-color: #222; border: 1px inset #555; padding: 10px; width: 400px;">
-                <span style="color:#00FFFF;">> LOAD_FILE: track_01.mp3</span><br>
-                <span style="color:#C0C0C0;">[ PLAY ] [ STOP ] [ REWIND ]</span>
-            </div>
+            <ul style="color: #999;">
+                <li><b>Webmaster:</b> <a href="website.pdf" style="color:#C0C0C0;">D181 Portal Design Architecture & Layout Proofs [PDF]</a></li>
+                <li><b>Desktop Publishing:</b> <a href="2025 Summer Learning Catalog-03182025V3.pdf" style="color:#C0C0C0;">2025 Summer Learning Catalog [PDF]</a></li>
+                <li><b>Desktop Publishing:</b> <a href="2024 Summer Learning Catalog-03112024.pdf" style="color:#C0C0C0;">2024 Summer Learning Catalog [PDF]</a></li>
+                <li><b>Database:</b> Skyward Family Access & Parent Directory Administration</li>
+            </ul>
             
             <br><br><br>
             <div style="text-align:center; font-size: 10px; color: #555;">
-                END OF FILE.<br>
-                UNAUTHORIZED DUPLICATION PROHIBITED.
+                [ EOF ]<br>
+                Welcome to the underground.
             </div>
 
         </td>
